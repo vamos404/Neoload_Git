@@ -1,0 +1,137 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Account.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/82add59e-6529-45c9-b820-e49bdb011e2b.zip"
+    slaProfileEnabled="false" thinkTime="12692"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="82add59e-6529-45c9-b820-e49bdb011e2b">
+    <embedded-action>8fe19193-cbf8-467e-96ed-90d7d19ffa78</embedded-action>
+    <embedded-action>fcc22e1e-399f-4eda-bbd9-4129a5931a74</embedded-action>
+    <embedded-action>d60cd503-bba5-4336-999e-183823953468</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_82add59e-6529-45c9-b820-e49bdb011e2b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="4"
+    confFormExtractorParameters="username,password,signon,_sourcePage,__fp"
+    extractorInjectPathPolicy="2"
+    extractorPath="/actions/Account.action" extractorPathPolicy="1"
+    extractorServerUid="petstore.octoperf.com" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/actions/Account.action"
+    path="/actions/Account.action" postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/82add59e-6529-45c9-b820-e49bdb011e2b.zip"
+    recordedResponseCode="302"
+    refererUid="72c19bbd-6a81-48fc-a21c-79907ed0568d" responseSize="0"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="8fe19193-cbf8-467e-96ed-90d7d19ffa78" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9dGVzdCZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8xfSZzaWdub249TG9naW4mX3NvdXJjZVBhZ2U9RHRMemZYeXNNN2VlT1BVelFmNy1MYmltbDhEVHV5TWtQWDBhYThFUzR0OVQ1RFNqSXpLZjA4eU0zbzR4MUs2NjBiVWZVRHdBejBIaTF0Tld2VjBqSXRfSEttNXh0UXZQRC1kcURqaFBLNjAlM0QmX19mcD1YTGlhdmptY3E0bUJRaVI4aHR3TjlaTjV0X0RZQmpPOGhOcVo1U2VwaE9yMl9tcG43LV83SHNlZVo0RS1OTmNE]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_8fe19193-cbf8-467e-96ed-90d7d19ffa78.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="test" separator="=" value="test" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_1}" separator="="
+        value="${AutoPassword_1}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="signon"
+        recordRawValue="Login" separator="=" value="Login" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        extractVariable="_sourcePage" name="_sourcePage"
+        recordRawValue="DtLzfXysM7eeOPUzQf7-Lbiml8DTuyMkPX0aa8ES4t9T5DSjIzKf08yM3o4x1K660bUfUDwAz0Hi1tNWvV0jIt_HKm5xtQvPD-dqDjhPK60%3D"
+        separator="="
+        value="DtLzfXysM7eeOPUzQf7-Lbiml8DTuyMkPX0aa8ES4t9T5DSjIzKf08yM3o4x1K660bUfUDwAz0Hi1tNWvV0jIt_HKm5xtQvPD-dqDjhPK60=" valueMode="USE_HTML"/>
+    <parameter encodeName="true" encodeValue="true"
+        extractVariable="__fp" name="__fp"
+        recordRawValue="XLiavjmcq4mBQiR8htwN9ZN5t_DYBjO8hNqZ5SephOr2_mpn7-_7HseeZ4E-NNcD"
+        separator="="
+        value="XLiavjmcq4mBQiR8htwN9ZN5t_DYBjO8hNqZ5SephOr2_mpn7-_7HseeZ4E-NNcD" valueMode="USE_HTML"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Account.action?signonForm="/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=D5358BEB17E2E2061395FF2CD020B2F1"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://petstore.octoperf.com"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="te" value="trailers"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Sat, 23 May 2026 06:12:36 GMT&#xd;
+Content-Length: 0&#xd;
+location: /actions/Catalog.action&#xd;
+content-language: en-US&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <extractor-html-infos extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+    <record-html-infos extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/82add59e-6529-45c9-b820-e49bdb011e2b.zip"
+    recordedResponseCode="200"
+    refererUid="8fe19193-cbf8-467e-96ed-90d7d19ffa78"
+    responseSize="4964" serverUid="petstore.octoperf.com"
+    slaProfileEnabled="false" uid="fcc22e1e-399f-4eda-bbd9-4129a5931a74" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fcc22e1e-399f-4eda-bbd9-4129a5931a74.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fcc22e1e-399f-4eda-bbd9-4129a5931a74.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Account.action?signonForm="/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=D5358BEB17E2E2061395FF2CD020B2F1"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sat, 23 May 2026 06:12:36 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 4964&#xd;
+content-language: en-US&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/banner_fish.gif"
+    path="/images/banner_fish.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/82add59e-6529-45c9-b820-e49bdb011e2b.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="d60cd503-bba5-4336-999e-183823953468" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d60cd503-bba5-4336-999e-183823953468.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=D5358BEB17E2E2061395FF2CD020B2F1"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=4, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sat, 23 May 2026 06:12:37 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 6451&#xd;
+accept-ranges: bytes&#xd;
+etag: W/"6451-1670877034000"&#xd;
+last-modified: Mon, 12 Dec 2022 20:30:34 GMT&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

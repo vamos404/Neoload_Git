@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/425ba7b6-47c2-47c6-81a0-0fd013ab51df.zip"
+    slaProfileEnabled="false" thinkTime="101"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="425ba7b6-47c2-47c6-81a0-0fd013ab51df">
+    <embedded-action>dd931f46-45af-45fd-b3a8-ca998c638c6a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_425ba7b6-47c2-47c6-81a0-0fd013ab51df.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/425ba7b6-47c2-47c6-81a0-0fd013ab51df.zip"
+    recordedResponseCode="404" responseSize="762"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="dd931f46-45af-45fd-b3a8-ca998c638c6a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_dd931f46-45af-45fd-b3a8-ca998c638c6a.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_dd931f46-45af-45fd-b3a8-ca998c638c6a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=D5358BEB17E2E2061395FF2CD020B2F1"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=6"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"/>
+    <responseHeaders>HTTP/2.0 404&#xd;
+date: Sat, 23 May 2026 06:12:01 GMT&#xd;
+content-type: text/html;charset=utf-8&#xd;
+content-length: 762&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
